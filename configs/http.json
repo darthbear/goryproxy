@@ -1,0 +1,13 @@
+{"configs": [
+	{"proxy_host": "localhost",
+	 "proxy_port": 8080,
+	 "listen_host": "0.0.0.0",
+	 "listen_port": 80,
+	 "protocol": "tcp",
+	 "failures": [
+		{"name":"disconnect",
+		 "probability": 0.2
+		}
+	 ]
+	}
+]}
